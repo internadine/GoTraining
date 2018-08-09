@@ -6,7 +6,6 @@ import (
 	"github.com/internadine/GoTraining/sayhello/name"
 )
 
-func nadine() {
-	fmt.Println("Hello")
-	fmt.Println(name.MyName)
+func main() {
+	fmt.Println("Hello " + name.MyName)
 }
